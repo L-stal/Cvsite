@@ -100,6 +100,11 @@ header {
 #logobig {
   max-height: 84px;
 }
+#chas_logo {
+  padding: 0.4em;
+  height: 3em;
+  float: right;
+}
 
 .navig {
   display: none;
@@ -176,6 +181,9 @@ header {
   background-color: var(--clr-drkblue);
   padding-bottom: 0.5em;
 }
+.bodyContact {
+  background-color: var(--clr-drkblue);
+}
 
 .bodyAboutMe {
   background: var(--clr-lightbrwn);
@@ -190,15 +198,21 @@ header {
   background-color: var(--clr-drkbrwn);
 }
 .portfolio_main {
-  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
   background-color: var(--clr-lightblue);
   margin: 5em;
   border-radius: 25px;
   box-shadow: var(--bs);
   padding: 2em 1em 2em 1em;
 }
-.bodyContact {
-  background-color: var(--clr-drkblue);
+.cv_info {
+  background-color: var(--clr-light);
+  text-decoration: none;
+  border-radius: 25px;
+  padding: 0px 20px 0px 20px;
+  color: var(--clr-dark);
 }
 .contact_main {
   justify-content: space-between;
@@ -417,8 +431,8 @@ h3 {
   }
 
   .about_me1 {
-    width: 100%;
     flex-direction: column;
+    width: 90%;
   }
 
   .aboutme_img {
