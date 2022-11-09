@@ -1,0 +1,32 @@
+ [
+    {
+        "company": "Chas Academy",
+        "position": ".Net Developer Student",
+        "startDate": "2022-09",
+        "endDate": "2024-05",
+        "summary": "Currently studying my first year as a full-stack .Net developer and I love it. Reson why i started to study was that i felt it was  time to change my carrer."
+    },
+    {
+        "company": "Al Textilinredarna",
+        "position": "Assembler/textile decorator",
+        "startDate": "2019-09",
+        "endDate": "2022-08",
+        "summary":"Worked as an assembler/textile decorator, if textile was involved and you needed help I could probably solve it."
+    },
+    {
+        "company": "Primetex",
+        "position": "curtain fitter",
+        "startDate": "2017",
+        "endDate": "2019-08",
+        "summary":"Worked as a curtain fitter for public environments such as offices and schools. Later joined two of the founders and started working for Textilinredarna."
+    },   
+    {
+        "company": "Svenska Solskydds Gruppen",
+        "position": "Awning fitter",
+        "startDate": "--",
+        "endDate": "--",
+        "summary":"Work with mouting awnings and sun blinds, mostly mounting awings on porches and balconys. This was my way in to the whole textile/curtin bussnies"
+    } 
+    
+]
+

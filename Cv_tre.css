@@ -214,16 +214,48 @@ header {
   padding: 0px 20px 0px 20px;
   color: var(--clr-dark);
 }
-.contact_main {
-  justify-content: space-between;
-  display: flex;
+.modal {
+  background-color: var(--clr-drkblue);
+  text-decoration: none;
+  border-radius: 25px;
+  padding: 0px 20px 0px 20px;
+  color: var(--clr-light);
+  font-family: var(--ff-secondary);
+  font-size: x-large;
 }
-.contact_main1 > p,
-.contact_main2 > p {
+
+.modal-container {
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+.modal-container.show {
+  opacity: 1;
+  pointer-events: auto;
+}
+.modalInfo {
+  background-color: #fff;
+  width: 50%;
+  max-width: 100%;
+  padding: 5rem;
+  border-radius: 50px;
+  line-height: 2em;
+  text-align: left;
+}
+
+.cv_main > p {
   padding: 0em 2em 3em 2em;
 }
-.contact_main1 {
-  margin: 0 auto;
+.cv_main {
+  margin: 5em auto;
   font-family: var(--ff-secondary);
   padding: 2em;
   display: flex;
@@ -231,10 +263,20 @@ header {
   background-color: var(--clr-light);
   border-radius: 50px;
   box-shadow: var(--bs);
-  width: fit-content;
 }
 
-.contact_main2 {
+#workCard {
+  padding: 1em;
+}
+
+.cv_card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  min-width: 300px;
+}
+
+/* .contact_main2 {
   line-height: 1.5em;
   width: 70%;
   margin: 0 auto;
@@ -245,8 +287,8 @@ header {
   background-color: var(--clr-light);
   border-radius: 50px;
   box-shadow: var(--bs);
-}
-.contact_mobil {
+} */
+.cv_mobil {
   display: none;
 }
 
@@ -434,7 +476,12 @@ h3 {
     flex-direction: column;
     width: 90%;
   }
-
+  .cv_card {
+    flex-direction: column;
+  }
+  .cv_main {
+    margin: 1em auto;
+  }
   .aboutme_img {
     display: none;
   }
