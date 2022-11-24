@@ -105,6 +105,11 @@ header {
   height: 3em;
   float: right;
 }
+#chas_logo1 {
+  padding: 0.4em;
+  height: 3em;
+  float: right;
+}
 
 .navig {
   display: none;
